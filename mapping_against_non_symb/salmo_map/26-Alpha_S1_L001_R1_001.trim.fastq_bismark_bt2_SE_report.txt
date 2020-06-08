@@ -1,0 +1,39 @@
+Bismark report for: /home/liewy/data_repo/symb/02_3temp_3rep_meth/26-Alpha_S1_L001_R1_001.trim.fastq (version: v0.13.0)
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+Bismark was run with Bowtie 2 against the bisulfite genome of /home/liewy/kaust/styl/dna_meth/raw_data/bis_genomes/salmo_genome/ with the specified options: -q --score-min L,0,-0.6 --ignore-quals
+
+Final Alignment report
+======================
+Sequences analysed in total:	1179652
+Number of alignments with a unique best hit from the different alignments:	13516
+Mapping efficiency:	1.1%
+Sequences with no alignments under any condition:	1166103
+Sequences did not map uniquely:	33
+Sequences which were discarded because genomic sequence could not be extracted:	55
+
+Number of sequences with unique best (first) alignment came from the bowtie output:
+CT/CT:	7199	((converted) top strand)
+CT/GA:	6221	((converted) bottom strand)
+GA/CT:	28	(complementary to (converted) top strand)
+GA/GA:	13	(complementary to (converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	303148
+
+Total methylated C's in CpG context:	66408
+Total methylated C's in CHG context:	60817
+Total methylated C's in CHH context:	175630
+Total methylated C's in Unknown context:	0
+
+Total unmethylated C's in CpG context:	50
+Total unmethylated C's in CHG context:	50
+Total unmethylated C's in CHH context:	193
+Total unmethylated C's in Unknown context:	0
+
+C methylated in CpG context:	99.9%
+C methylated in CHG context:	99.9%
+C methylated in CHH context:	99.9%
+Can't determine percentage of methylated Cs in Unknown context (CN or CHN) if value was 0
+
+
